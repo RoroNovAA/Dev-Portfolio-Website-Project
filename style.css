@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 24, 39);
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 25px 16px;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.home {
+    background-color: rgb(100, 100, 224);
+    padding: 6px 12px;
+    border-radius: 18px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+}
+
+.h2-intro {
+    font-size: 35px;
+    margin-top: 120px;
+}
+
+.waving-hand {
+    width: 45px;
+    height: 40px;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.job-title {
+    color: rgb(197, 197, 89);
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.dev-info {
+    margin-right: 35px;
+}
+
+.pc-image-intro {
+    width: 410px;
+    height: 420px;
+}
+
+
+.projects-container {
+    margin-top: 55px;
+}
+
+.projects-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* .horizontal-line {
+    background-color: blue;
+    padding: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+
+.pc-image {
+    width: 280px;
+    height: 260px;
+}
+
+.project-items {
+    background-color: red;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow-wrap:normal;
+    display: flex;
+}
