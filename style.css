@@ -87,12 +87,3 @@ nav {
     width: 280px;
     height: 260px;
 }
-
-.project-items {
-    background-color: red;
-    padding: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-    overflow-wrap:normal;
-    display: flex;
-}
