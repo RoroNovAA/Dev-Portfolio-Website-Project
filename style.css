@@ -74,14 +74,14 @@ nav {
     font-size: 40px;
 }
 
-/* .horizontal-line {
+ .horizontal-line {
+    height: 10px;
+    width: 135px;
     background-color: blue;
-    padding: 20px;
-    width: 20px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 5px auto;
+} 
 
 .pc-image {
     width: 280px;
@@ -109,6 +109,15 @@ margin-top: 20px;
 .contact-me {
 text-align: center;
 }
+
+.horizontal-line-contact {
+    height: 10px;
+    width: 155px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 5px auto;
+} 
 
 .socials-ul {
     display: flex;
