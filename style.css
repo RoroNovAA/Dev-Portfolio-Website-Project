@@ -87,3 +87,44 @@ nav {
     width: 280px;
     height: 260px;
 }
+
+.project-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+  }
+  
+.project {
+margin: 10px;
+text-align: center;
+}
+
+footer {
+margin-top: 20px;
+}
+
+.contact-me {
+text-align: center;
+}
+
+.socials-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(17, 24, 39);
+}
+
+.socials-img {
+    width: 32px;
+    height: 32px;
+}
+
+.outlook {
+    width: 55px;
+    height: 55px;
+}
+
