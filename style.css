@@ -24,6 +24,11 @@ nav {
     align-items: center;
 }
 
+.drop-down-menu {
+    display: none;
+    list-style-type: none;
+}
+
 .home {
     background-color: rgb(100, 100, 224);
     padding: 6px 12px;
@@ -135,5 +140,11 @@ text-align: center;
 .outlook {
     width: 55px;
     height: 55px;
+}
+
+
+@media screen and (max-width: 576px) {
+         
+   
 }
 
