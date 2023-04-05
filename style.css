@@ -24,9 +24,8 @@ nav {
     align-items: center;
 }
 
-.drop-down-menu {
-    display: none;
-    list-style-type: none;
+.menu {
+   display: none;
 }
 
 .home {
@@ -38,6 +37,8 @@ nav {
 .intro-container {
     display: flex;
     justify-content: center;
+    margin: 12px 50px;
+    padding: 48px;
 }
 
 .h2-intro {
@@ -145,6 +146,44 @@ text-align: center;
 
 @media screen and (max-width: 576px) {
          
-   
+ 
+ .nav-list   {
+    display: none;
+   }
+
+   .menu {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+ }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pc-image-intro {
+    width: 60vw;
+  }
+
+  .h2-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+ .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+ }
 }
 
